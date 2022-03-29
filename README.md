@@ -1,6 +1,6 @@
 # Sample Kafka Producer
 
-To run, put a parquet file into the 'data' folder (preferably named `sample_data.parquet`) then build the Docker container. 
+To run, put a parquet file into the 'data' folder (preferably named `sample_data.parquet`) then build the Docker container. The parquet file should have two columns: `id` and `data`
 
 `docker build -t kafka-producer .`
 
